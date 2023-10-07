@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </nav>
+
+    <section class="overview">
+    <h2>Dashboard Overview</h2>
+    <div class="metrics">
+        <div class="metric">
+            <h3>Total Sales</h3>
+            <p>$10,000</p>
+        </div>
+        <div class="metric">
+            <h3>Number of Orders</h3>
+            <p>50</p>
+        </div>
+        <div class="metric">
+            <h3>Customer Engagement</h3>
+            <p>80%</p>
+        </div>
+    </div>
+</section>
+
+    <section class="orders">
+    <h2>Orders Management</h2>
+    <table>
+        <tr>
+            <th>Order ID</th>
+            <th>Customer Name</th>
+            <th>Date</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>2023-05-20</td>
+            <td>Shipped</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>2023-05-18</td>
+            <td>Delivered</td>
+        </tr>
+    </table>
+</section>
+
+
+   <section class="products">
+    <h2>Product Management</h2>
+    <button>Add New Product</button>
+    <table>
+        <tr>
+            <th>Product Name</th>
+            <th>SKU</th>
+            <th>Price</th>
+            <th>Stock Availability</th>
+        </tr>
+        <tr>
+            <td>T-Shirt</td>
+            <td>TS001</td>
+            <td>$19.99</td>
+            <td>In Stock</td>
+        </tr>
+        <tr>
+            <td>Jeans</td>
+            <td>JN002</td>
+            <td>$49.99</td>
+            <td>In Stock</td>
+        </tr>
+    </table>
+</section>
+<section class="inventory">
+    <h2>Inventory Management</h2>
+    <table>
+        <tr>
+            <th>Product Name</th>
+            <th>Stock Quantity</th>
+            <th>Low Stock Alert</th>
+        </tr>
+        <tr>
+            <td>T-Shirt</td>
+            <td>100</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Jeans</td>
+            <td>50</td>
+            <td>Yes</td>
+        </tr>
+    </table>
+</section>
+
+
+   <section class="customers">
+    <h2>Customer Management</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Registration Date</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>johndoe@example.com</td>
+            <td>2023-05-15</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>janesmith@example.com</td>
+            <td>2023-05-18</td>
+        </tr>
+    </table>
+</section>
+
+
+
+   <section class="settings">
+    <h2>Settings and Configuration</h2>
+    <h3>Payment Gateways</h3>
+    <ul>
+        <li>PayPal</li>
+        <li>Stripe</li>
+        <li>Authorize.Net</li>
+    </ul>
+    <h3>Shipping Methods</h3>
+    <ul>
+        <li>Standard Shipping</li>
+        <li>Express Shipping</li>
+        <li>Free Shipping</li>
+    </ul>
+    <!-- Add more settings options as needed -->
+</section>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+/* CSS Styles for the Admin Dashboard */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #333;
+}
+
+/* CSS Styles for the Admin Dashboard Sections */
+
+/* Global styles */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Styles for each section */
+.overview {
+    background-color: #f2f9ff;
+}
+
+.orders {
+    background-color: #fff3e6;
+}
+
+.products {
+    background-color: #e6f9f3;
+}
+
+.inventory {
+    background-color: #f3e6f9;
+}
+
+.customers {
+    background-color: #f9e6f3;
+}
+
+.analytics {
+    background-color: #e6f3f9;
+}
+
+.settings {
+    background-color: #f9f3e6;
+}
+
+/* Example styles for specific sections */
+
+.orders table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders th, .orders td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.products button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.products table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.products th, .products td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.inventory table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.inventory th, .inventory td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.customers table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customers th, .customers td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.analytics .chart {
+    height: 300px;
+    /* Add additional styles for the chart as needed */
+}
+
+.settings h3 {
+    margin-top: 20px;
+}
+
+.settings ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.settings li {
+    margin-bottom: 10px;
+}
+ 
+        .popup-message {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            z-index: 9999;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .success {
+            background-color: #4CAF50;
+        }
+
+        .error {
+            background-color: #FF0000;
+        }
+
+        .fade-out {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+  

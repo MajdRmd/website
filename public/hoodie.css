@@ -1,0 +1,80 @@
+body {margin: 0;
+background-color: #e3e3e3;
+}
+button{
+display: block;
+margin: auto;
+width: 200px;
+height: 50px;
+font-size: 30px;
+font-weight: bold;
+
+}
+
+
+
+ #hood img{
+
+width: 50%;
+ }
+ #price{
+  text-align: center;
+ }
+.act-bar{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  list-style: none;
+margin: 0;
+  background-color: #333;
+  color: #B5E3FC;
+  text-align: center;
+
+}
+.act-item{
+    display: flex;
+  align-items: center;
+  height: 100%;
+
+  font-size: 22px;
+  cursor: pointer;
+}
+.act-item img{
+  width: 70px;
+  height: 50px;
+}
+.act-item a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-family: 'Dosis', sans-serif;
+  color: #E6E6E7;
+  text-decoration: none;
+}
+.act-item:hover{
+   background-color: #444;
+}
+.act-item a:hover{
+  color: #eee;
+    
+}
+.act-item:first-child{
+  padding-left: 20px;
+}
+table{
+  margin: auto;
+  
+
+}
+    td {
+        text-align: center;
+       font-size: 30px;
+       
+      }
+      td div {
+        font-weight: bold;
+        margin-top: 10px;
+      }

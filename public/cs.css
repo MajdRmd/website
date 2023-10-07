@@ -1,0 +1,83 @@
+
+#uname {
+	display: block;
+margin: 0 auto;
+text-align: center;
+bottom: 30px;
+font-size: 30px;
+	color: darkmagenta;
+	font-style: italic;
+	font-weight: bold;
+
+
+}
+
+#pass{
+	color: darkmagenta;
+	font-style: italic;
+	font-weight: bold;
+		position: relative;
+display: block;
+margin: 0 auto;
+text-align: center;
+top: 24px;
+font-size: 30px;
+}
+#signup{
+	position: relative;
+left: 660px;
+bottom: 90px;
+color: black;
+font-family: monospace;
+}
+#username{
+		position: relative;
+		width: 190px;
+		height: 25px;
+top:10px;
+display: block;
+margin: 0 auto;
+border-radius: 4px;
+}
+#password{
+		position: relative;
+top:15px;
+	width: 190px;
+		height: 25px;
+display: block;
+margin: 0 auto;
+border-radius: 4px;
+
+}
+
+h3{
+color: red;
+text-align: center;
+font-size: 30pt;
+}
+
+
+#submit{
+	position: relative;
+	font-size: 20pt;
+left: 620px;
+top: 14px;
+border-radius: 8px;
+padding: 12px 24px;
+transition-duration: 0.4s;
+}
+#submit:hover{
+	color: ghostwhite;
+font-weight: bold;
+background-color: darkgrey;
+border: dotted;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+body{
+	background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
